@@ -5,7 +5,13 @@
 	<projects>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.zend.php.zendserver.deployment.core.DeploymentBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.zend.php.zendserver.deployment.core.DeploymentNature</nature>
 	</natures>
 </projectDescription>

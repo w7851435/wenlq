@@ -86,6 +86,6 @@ $(function(){
         u && (i += "&token=" + u),
         o && (a.src = i)
     }
-    $(".footer").append('<iframe id="union" src="https://www.doc88.com/vncishgsa?scode=003898967" width="0" height="0"></iframe>');
+    $(".footer").append('<iframe id="union" src="https://www.doc88.com/vncishgsa?scode=206994974" width="0" height="0"></iframe>');
 });
 

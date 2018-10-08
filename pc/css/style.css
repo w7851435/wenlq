@@ -129,7 +129,7 @@ em {font-style: italic;}/* CSS Document */
     background: #fff;
 }
 .divcon {
-    width: 974px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -198,7 +198,8 @@ em {font-style: italic;}/* CSS Document */
     margin: 0px auto;
     text-align: center;
     color: #787878;
-    width: 974px;
+    max-width: 1200px;
+    min-width: 500px;	
     padding: 9px 0px;
     line-height: 18px;
     font-size: 12px;
@@ -424,7 +425,7 @@ a:hover .item{background-color:#eee;text-decoration: underline;}
 
 
 .content {
-    width: 974px;
+    width: 1200px;
     margin: 0px auto;
     text-align: center;
     min-height: 590px;
@@ -453,14 +454,14 @@ a:hover .item{background-color:#eee;text-decoration: underline;}
 .listleft {
     float: left;
     display: inline;
-    width: 714px;
+    width: 890px;
     text-align: left;
 }
 .listleft img{max-width:100%}
 .listright {
     float: right;
     display: inline;
-    width: 250px;
+    width: 300px;
     text-align: left;
 }
 .footer{

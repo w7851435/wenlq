@@ -1,0 +1,134 @@
+.clearfix {
+    clear: both;
+	zoom: 1;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.mask, .mask2 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 100;
+}
+
+/*赞赏弹窗*/
+.mask2 {
+	z-index: 5;
+	display: block;
+	font-size: 14px;
+}
+
+.appreciate-nbox {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	padding: 30px 0;
+	margin-left: -150px;
+	margin-top: -150px; text-align : center;
+	background: #fff;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.appreciate-nbox .close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width:16px;
+	height: 16px;
+	background: url(../images/cls_1.png) no-repeat;
+	background-size: contain;
+	margin: 0;
+}
+
+.appreciate-nbox-1 {
+	width: 280px;
+	margin: 0 auto;
+}
+
+.appreciate-nbox-1 h2 {
+	font-size: 14px;
+	color: #333;
+	margin: 0;
+}
+
+.appreciate-nbox-1 .paylist {
+	margin: 0;
+	margin-left: 0px;
+	padding: 10px 0 0 0;
+}
+
+.appreciate-nbox-1 li {
+	list-style: none;
+	float: left;
+	font-size: 18px;
+	width: 80px;
+	line-height: 40px; text-align : center;
+	color: #999;
+	background: #eee;
+	margin-left: 10px;
+	margin-top:  10px;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.appreciate-nbox-1 li.on {
+	color: #fff;
+	background:#459df5;
+}
+
+.appreciate-nbox-1 span {
+	font-size: 22px;
+}
+
+.appreciate-nbox-1 input {
+	font-size: 16px;
+	color: #666;
+	width: 100px;
+	line-height: 24px;
+	text-align: center;
+	border: 0 none;
+	border-bottom: 1px solid #ccc;
+	margin-top: 16px;
+	outline: none;
+	border-radius: 0;
+}
+
+.appreciate-nbox-1 .msg {
+	font-size: 12px;
+	color: #bfbfbf;
+	margin: 8px 0 0 0;
+}
+
+.appreciate-nbox-1 .error-msg {
+	font-size: .44rem;
+	color:#459df5;
+	line-height: 1.5;
+	margin: 0
+}
+
+.appreciate-nbox-1 .appreciate-ajax {
+	width: 160px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	font-size: 16px;
+	color: #fff;
+	background:#459df5;
+	margin: 16px auto 0;
+	cursor: pointer;
+}

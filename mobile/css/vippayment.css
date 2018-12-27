@@ -1,0 +1,270 @@
+.clearfix {
+    clear: both;
+	zoom: 1;
+}
+.clearfix:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.mask, .mask2 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 100;
+}
+
+/*赞赏弹窗*/
+.mask2 {
+	z-index: 5;
+	display: block;
+	font-size: 14px;
+	padding:0;
+}
+
+.askvip .sfcommonwg-cashiervip-root {
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 500;
+}
+.askvip .sfcommonwg-mask-root {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.65);
+    z-index: 8;
+}
+.askvip .sfcommonwg-cashiervip-root>.tabs-root {
+    background: #fff;
+    z-index: 1000;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 39px;
+    padding-top: 12px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.askvip .sfcommonwg-cashiervip-root>.tabs-root>.tab {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    line-height: 37px;
+}
+.askvip .sfcommonwg-cashiervip-root>.tabs-root>.tab>span {
+    display: inline-block;
+}
+.askvip .sfcommonwg-cashiervip-root>.tabs-root .icon-close {
+    position: absolute;
+    top: 0;
+    right: 4.10628019%;
+    margin-right: -17px;
+    background-image: url(../images/cls_1.png);
+    background-size: 16px 16px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+.askvip .sfcommonwg-cashiervip-goods-root {
+    position: relative;
+    z-index: 1000;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: -1px;
+    background: #fff;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.askvip .c-container, .askvip .ask-container {
+    margin-left: 4.10628019%;
+    margin-right: 4.10628019%;
+    width: auto;
+    color: #333;
+    font: 14px/22px "PingFang SC","Noto Sans CJK SC","Source Han Sans CN";
+    word-break: break-word;
+    word-wrap: break-word;
+    border: 0 none;
+}
+.askvip .c-span3, .askvip .ask-span3 {
+    box-sizing: content-box;
+    width: 23.42105263%;
+    padding-left: 1.05263158%;
+    padding-right: 1.05263158%;
+    position: relative;
+    min-height: 1px;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item {
+    display: inline-block;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div.active {
+    border-color: #459df5;
+    background-color: rgba(69, 157, 245,.2);
+}
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div {
+    position: relative;
+    padding: 20px 0;
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div>div {
+    line-height: 16px;
+    text-align: center;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div .price {
+    font-weight: 700;
+    text-align: center;
+    color: #E54843;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div .price .original-price {
+    margin-top: 12px;
+    display: inline-block;
+    font-size: 10px;
+    text-decoration: line-through;
+    color: #999;
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+}
+.askvip .discount-num {
+    position:absolute;
+	right:0;
+	top:0;
+	border-left:1px solid #e9e9e9;
+	border-bottom:1px solid #e9e9e9;	
+	padding:2px;
+	    border-radius: 2px;
+	}
+.askvip .sfcommonwg-cashiervip-goods-root .privileges-wrap {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    background: #f9f9f9;margin-bottom: 16px;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .privileges-wrap .privilege-item {
+    padding-left: 4.47368421%;
+    font-size: 13px;
+    line-height: 10px;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .privileges-wrap .privilege-item i {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin-top: 11px;
+    margin-right: 4px;
+    vertical-align: top;
+    border-radius: 2px;
+    background-color: #d8d8d8;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .privileges-wrap .privilege-item .row-1 {
+    display: inline-block;
+    overflow: hidden;
+    width: 95%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .privileges-wrap .privilege-item>div>div {
+    line-height: 24px;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .privileges-wrap .privilege-item div {
+    display: inline;
+}
+.askvip .sfcommonwg-cashiervip-goods-root .privileges-wrap .privilege-item .gold-color {
+    
+    font-weight: bold;	
+}
+.askvip .sfcommonwg-cashiervip-pay-root {
+    font-size: 0;
+    height: 48px;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+    position: relative;
+}.askvip .sfcommonwg-cashiervip-pay-root .price-info:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform-origin: left top;
+    box-sizing: border-box;
+    pointer-events: none;
+}.askvip .sfcommonwg-cashiervip-pay-root .price-info, .askvip .sfcommonwg-cashiervip-pay-root .confirm {
+    display: inline-block;
+}
+.askvip .sfcommonwg-cashiervip-pay-root .price-info {
+    position: relative;
+    width: 66.50563607%;
+    padding-left: 6.17433414%;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #333;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: top;
+}.askvip .sfcommonwg-cashiervip-pay-root .price-info:before {
+    border-width: 1px 0 0;
+    border-style: solid;
+    border-color: #e6e6e6;
+}.askvip .sfcommonwg-cashiervip-pay-root .price-info>span {
+    font-size: 20px;
+    color: #E54843;
+}.askvip .sfcommonwg-cashiervip-pay-root .confirm {
+    width: 33.41384863%;
+    color: #fff;
+    background-color: #459df5;
+    line-height: 48px;
+    font-size: 18px;
+    text-align: center;
+}

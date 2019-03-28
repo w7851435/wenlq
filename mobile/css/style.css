@@ -1,7 +1,8 @@
+@charset "utf-8";
 body, h1, h2, h3, p, div, ol, ul, input, button {
     margin: 0;
     padding: 0;
-    font-family:"Î¢ÈíÑÅºÚ","Microsoft Yahei",Arial,Helvetica,sans-serif;
+    font-family:"å¾®è½¯é›…é»‘","Microsoft Yahei",Arial,Helvetica,sans-serif;
 }
 body{
     min-width:300px;
@@ -19,11 +20,15 @@ input, button, textarea {
     box-sizing: border-box;
 }
 a{text-decoration:none;}
+
+
+    
+    
 @font-face {font-family: 'iconfont';
     src: url('iconfont.eot'); /* IE9*/
     src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('iconfont.woff') format('woff'), /* chrome¡¢firefox */
-    url('iconfont.ttf') format('truetype'), /* chrome¡¢firefox¡¢opera¡¢Safari, Android, iOS 4.2+*/
+    url('iconfont.woff') format('woff'), /* chromeã€firefox */
+    url('iconfont.ttf') format('truetype'), /* chromeã€firefoxã€operaã€Safari, Android, iOS 4.2+*/
     url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 .iconfont{
@@ -223,10 +228,10 @@ hr {
     line-height:50px;
     padding:0 10px;
 }
-#view_body .check_list li:nth-of-type(odd){/*ÆæÊıĞĞ*/
+#view_body .check_list li:nth-of-type(odd){/*å¥‡æ•°è¡Œ*/
     background: #f5f5f5;
 }
-#view_body .check_list li:nth-of-type(even){/*Å¼ÊıĞĞ*/
+#view_body .check_list li:nth-of-type(even){/*å¶æ•°è¡Œ*/
     background: #ffffff;
 }
 #view_body .check_list .check_pre{
@@ -383,7 +388,7 @@ hr {
     text-decoration:none;
     color:#3385ff;
 }
-/*main ²¿·Ö¿ªÊ¼*/
+/*main éƒ¨åˆ†å¼€å§‹*/
 .main_header{
     width: 100%;
     height: 53px;
@@ -471,7 +476,7 @@ hr {
 .login_button{
     margin-top:30px;
 }
-/*main ²¿·Ö½áÊø*/
+/*main éƒ¨åˆ†ç»“æŸ*/
 .about{
 	padding:10px;
 	font-size:14px;
@@ -506,7 +511,7 @@ hr {
     color: #c00;
 }
 .table-navi a{font-size:16px;}
-/*Õª³öÎ¢ĞÅ²¿·Ö*/
+/*æ‘˜å‡ºå¾®ä¿¡éƒ¨åˆ†*/
 .weui-panel__hd {
     padding: 14px 15px 10px;
     color: #999999;
@@ -593,7 +598,7 @@ hr {
 }
 .main_footer{border-top: 1px solid #E5E5E5;}
 .view_top_name{padding-left:15px;}
-/*ÎÄÕÂÔÄ¶ÁÏÂ·½*/
+/*æ–‡ç« é˜…è¯»ä¸‹æ–¹*/
 .recentArticle {
     padding: 0 16px;
     border-top: 1px solid #eaeaea;
@@ -651,7 +656,7 @@ hr {
 	height: 20px;
     line-height: 20px;
 }
-/*ÑÕÉ«¶¨Òå*/
+/*é¢œè‰²å®šä¹‰*/
 .gray{color:#cccccc;}
 .red{color:#f35f45;}
 .green{color:#3385ff;}

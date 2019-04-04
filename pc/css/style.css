@@ -156,6 +156,7 @@ em {font-style: italic;}/* CSS Document */
 .list_bg{
     height: 100%;
     width: 100%;
+	min-width:1200px;
     font-size: 15px;
     background: #f0f0f0;
 }

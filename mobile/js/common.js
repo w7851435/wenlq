@@ -4,6 +4,7 @@ $(function(){
 		if(search_input==""){
 		}else{
 			search_input = encodeURIComponent(search_input);
+			search_input = search_input.replace(/%2F/g, '+');
 			top.location='/s/'+search_input;
 		}
 		return false;
@@ -15,6 +16,7 @@ $(function(){
 			if(search_input==""){
 			}else{
 				search_input = encodeURIComponent(search_input);
+				search_input = search_input.replace(/%2F/g, '+');
 				top.location='/s/'+search_input;
 			}
 			return false;

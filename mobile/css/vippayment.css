@@ -275,5 +275,6 @@
 .time-length{font-size:12px;
     margin-top: 4px;}
 .active .discount-num{
-	
+	border-left: 1px solid #459df5;
+    border-bottom: 1px solid #459df5;
 }

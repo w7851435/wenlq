@@ -149,11 +149,11 @@
 }
 .askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div {
     position: relative;
-    padding: 20px 0;
+    padding: 20px 0 10px 0;
     border: 1px solid #e9e9e9;
     border-radius: 2px;
 }
-.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div>div {
+.askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item {
     line-height: 16px;
     text-align: center;
 }
@@ -162,10 +162,10 @@
     text-align: center;
     color: #E54843;
     font-size: 15px;
-    margin-top: 12px;
+    margin-top: 6px;
 }
 .askvip .sfcommonwg-cashiervip-goods-root .vip-goods-list .goods-item>div .price .original-price {
-    margin-top: 12px;
+    margin-top: 4px;
     display: inline-block;
     font-size: 10px;
     text-decoration: line-through;
@@ -244,11 +244,9 @@
     display: inline-block;
 }
 .askvip .sfcommonwg-cashiervip-pay-root .price-info {
-    position: relative;
-    width: 66.50563607%;
-    padding-left: 6.17433414%;
+    padding-left: 3%;
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 14px;
     color: #333;
     height: 48px;
     line-height: 48px;
@@ -261,10 +259,21 @@
     font-size: 20px;
     color: #E54843;
 }.askvip .sfcommonwg-cashiervip-pay-root .confirm {
-    width: 33.41384863%;
+    width: 30%;
     color: #fff;
-    background-color: #459df5;
     line-height: 48px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
+	float:right;
+}
+.askvip .alipay{
+	background-color: #459df5;
+}
+.askvip .wxpay{
+	background-color: #1AAD19;
+}
+.time-length{font-size:12px;
+    margin-top: 4px;}
+.active .discount-num{
+	
 }

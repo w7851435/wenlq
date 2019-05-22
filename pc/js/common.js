@@ -81,6 +81,10 @@ function showvip(){
 		type: 2, //2 iframe层
 		title: '充值VIP继续使用',
 		area:['580px','380px'],
-		content: ['https://www.asklib.com/user.php?act=vippay', 'no'] //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
-	  }); 
+		content: ['https://www.asklib.com/user.php?act=vippay', 'no'], //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
+		cancel: function(index, layero){ 
+		    parent.location.reload();
+		    return false; 
+		}    
+	}); 
 }
